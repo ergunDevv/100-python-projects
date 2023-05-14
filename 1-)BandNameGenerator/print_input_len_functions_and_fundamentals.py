@@ -1,7 +1,7 @@
 # The print() function prints whatever is inside the parenthesis to the console.
 print('Hello World')
 # String concatenation can be done with a plus sign
-print('Hello ' + 'World!')
+print('Hello ' + 'World!!')
 
 # input() will get user input in console
 print('Hello ' + input('What is your name?') + '!')
