@@ -1,0 +1,6 @@
+bill = input('How much bill is?')
+how_many_people = input('how many people will split the bill?')
+tip = input('How much you wanna tip?')
+splited_bill = float(bill)/float(how_many_people)
+tip_bill = splited_bill+(splited_bill*float(tip)/100)
+print(f'{tip_bill:.2f}')
