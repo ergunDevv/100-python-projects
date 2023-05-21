@@ -28,7 +28,7 @@ scissors = '''
 '''
 
 # Write your code below this line 👇
-
+player_decision = rock
 random_num = random.randint(0, 2)
 if random_num == 0:
     computer_ = rock

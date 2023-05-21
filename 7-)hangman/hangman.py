@@ -20,8 +20,13 @@ while '-' in display and lives != 0:
     guess = input("Guess a letter: ").lower()
     if guess in used_letters:
         print('You already used this letter')
+        lives -= 1
+        print(stages[lives])
+
+        continue
     else:
         used_letters += guess
+
     for i in range(0, len(chosen_word)):
         if chosen_word[i] == guess:
             is_player_found_the_letter = True
@@ -36,6 +41,7 @@ while '-' in display and lives != 0:
         print('Word doesnt include this letter.')
         lives -= 1
     is_player_found_the_letter = False
+
 if lives == 0:
     print(stages[lives])
     print('You lose!')
