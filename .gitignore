@@ -1,1 +1,10 @@
-.vscode
+.vscode/
+venv/
+.venv/
+venv/
+./venv/
+venv/ .vscode/
+venv/
+virtualenv./
+virtualenv/
+.venv/
